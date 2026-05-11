@@ -17,6 +17,7 @@ package vdraft
 import (
 	"github.com/googleapis/mcp-toolbox/internal/prompts"
 	"github.com/googleapis/mcp-toolbox/internal/server/mcp/jsonrpc"
+	mcputil "github.com/googleapis/mcp-toolbox/internal/server/mcp/util"
 	"github.com/googleapis/mcp-toolbox/internal/tools"
 )
 
@@ -24,7 +25,7 @@ import (
 const SERVER_NAME = "Toolbox"
 
 // PROTOCOL_VERSION is the version of the MCP protocol in this package.
-const PROTOCOL_VERSION = "2025-11-25"
+const PROTOCOL_VERSION = mcputil.VERSION_DRAFT
 
 // methods that are supported.
 const (
